@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <img mat-card-avatar [src]="list.picture" >
+    <mat-card-title [ngClass]="{'light-text': (darkMode | async)}">{{list.name}} </mat-card-title>
+    <mat-card-subtitle>Successful authentication</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p [ngClass]="{'light-text': (darkMode | async)}">Email : {{list.email}}</p>
+    <br>
+    <p [ngClass]="{'light-text': (darkMode | async)}">Name : {{list.given_name}}</p>
+    <br>
+    <p [ngClass]="{'light-text': (darkMode | async)}">SubName : {{list.family_name}}</p>
+    <br>
+  </mat-card-content>
+  <mat-card-actions class="btn-action">
+    <button type="button" class="btn btn-success" (click)="showData()" disabled>data</button>
+    <button type="button" class="btn btn-danger" (click)="logOut()">Log out</button>
+  </mat-card-actions>
+</mat-card>

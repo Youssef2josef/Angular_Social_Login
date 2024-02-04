@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <img mat-card-avatar>
+      <mat-card-title></mat-card-title>
+      <mat-card-subtitle>Successful authentication</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Email : {{ user }}</p>
+      <br>
+      <p>Name : </p>
+      <br>
+      <p>SubName : </p>
+      <br>
+    </mat-card-content>
+    <mat-card-actions class="btn-action">
+      <button type="button" class="btn btn-success" disabled>data</button>
+      <button type="button" class="btn btn-danger" (click)="signOut()">Log out</button>
+    </mat-card-actions>
+</mat-card>

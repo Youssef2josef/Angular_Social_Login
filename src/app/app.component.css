@@ -1,0 +1,34 @@
+.mat-toolbar{
+    height: 75px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.span-mode {
+    margin: 0 5px;
+}
+
+.dark-light-mode {
+    background-color: #4b4b4b;
+    color: #fff;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.primary-mode {
+    background-color: rgba(21, 27, 46, 0.679);
+}
+
+.light-mode,
+.light-text {
+    color: #fff;
+}
+
+.light-mode:hover {
+    background-color: #f81313;
+}

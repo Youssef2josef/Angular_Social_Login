@@ -1,0 +1,33 @@
+.example-card {
+    margin: 50px auto;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('src/assets/user.png');
+    background-size: cover;
+}
+
+.btn-action{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.primary-mode {
+    background-color: rgba(21, 27, 46, 0.679);
+}
+
+.light-mode,
+.light-text {
+    color: #333;
+}
+
+.light-mode:hover {
+    background-color: #f81313;
+}
